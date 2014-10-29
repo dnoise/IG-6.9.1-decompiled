@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/action_bar_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/button_cancel" android:background="@drawable/action_bar_light_left_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_bar_light_glyph_close" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/dialog_title" android:paddingLeft="@dimen/action_bar_title_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IgDialogActionBar.Title" />
+    </LinearLayout>
+    <com.instagram.ui.widget.webview.IgWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

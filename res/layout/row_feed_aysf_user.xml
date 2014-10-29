@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_feed_aysf_user_row" android:paddingLeft="@dimen/feed_header_padding" android:paddingRight="@dimen/feed_header_padding" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/row_feed_aysf_divider" android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_feed_aysf_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/feed_row_header_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/row_feed_aysf_imageview" android:layout_width="@dimen/avatar_user_row_small" android:layout_height="@dimen/avatar_user_row_small" style="@style/Avatar" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_feed_aysf_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_feed_aysf_social_context" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <include android:layout_gravity="right|center" android:id="@id/row_feed_aysf_follow_button" android:layout_width="@dimen/follow_button_large_width" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_large" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:gravity="center_vertical" android:id="@id/row_feed_aysf_dismiss_button" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/nav_cancel" android:scaleType="center" app:normal="@color/grey_light" app:active_alpha="0x80" />
+    </LinearLayout>
+</LinearLayout>

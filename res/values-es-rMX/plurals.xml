@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Tienes %s amigos de Facebook en Instagram.</item>
+        <item quantity="one">Tienes un amigo de Facebook en Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s contactos encontrados.</item>
+        <item quantity="one">1 contacto encontrado.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d fotos</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s solicitudes pendientes</item>
+        <item quantity="one">Una solicitud pendiente</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Estas personas quieren enviarte fotos y videos. Toca la casilla para permitir que te los envíen a partir de ahora.</item>
+        <item quantity="one">Esta persona quiere enviarte fotos y videos. Toca la casilla para permitir que te los envíe a partir de ahora.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s amigos de Facebook</item>
+        <item quantity="one">1 amigo de Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s contactos</item>
+        <item quantity="one">1 contacto</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">Hace %s minutos</item>
+        <item quantity="one">Hace %s minuto</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">Hace %s horas</item>
+        <item quantity="one">Hace %s hora</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">Hace %s días</item>
+        <item quantity="one">Hace %s día</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">Hace %s semanas</item>
+        <item quantity="one">Hace %s semana</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">Hace %s segundos</item>
+        <item quantity="one">Hace %s segundo</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d personas respondieron.</item>
+        <item quantity="one">Respondió una persona.</item>
+    </plurals>
+</resources>

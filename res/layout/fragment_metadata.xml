@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/action_bar_camera_controls" style="@style/ActionBar.Dark"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/action_bar_button_back" android:src="@drawable/nav_arrow_back" style="@style/ActionBarButton.Dark" />
+        <com.instagram.ui.text.FreightSansTextView android:id="@id/action_bar_textview_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/share_photos_to" android:layout_weight="1.0" style="@style/ActionBarTitle" />
+        <ImageView android:id="@id/upload_button" android:src="@drawable/check" style="@style/ActionBarButton.Dark" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+        <LinearLayout android:orientation="vertical" android:id="@id/super_metadata_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/view_switcher_buttons" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.instagram.ui.viewpager.ScrollingOptionalViewPager android:layout_gravity="top" android:id="@id/metadata_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:layout_gravity="top" android:id="@id/metadata_tab_shadow" android:background="@drawable/tab_control_shadow" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

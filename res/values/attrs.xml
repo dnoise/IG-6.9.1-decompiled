@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color" format="color" />
+    <attr name="placeholder" format="reference|color" />
+    <attr name="strokeColor" format="reference|color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="decorate" format="boolean" />
+    <attr name="aspect" format="float" />
+    <attr name="normal" format="color" />
+    <attr name="normal_alpha" format="integer" min="0" max="255" />
+    <attr name="active" format="color" />
+    <attr name="active_alpha" format="integer" min="0" max="255" />
+    <attr name="disabled_alpha" format="integer" min="0" max="255" />
+    <attr name="lines" format="integer" />
+    <attr name="drawable" format="reference" />
+    <attr name="innerSpacing" format="dimension" />
+    <attr name="followButtonStyle" format="string" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="perfTrackingCategory" format="string" />
+    <attr name="dark" format="boolean" />
+    <attr name="fillColor" format="color" />
+    <attr name="actionbarCompatProgressIndicatorStyle" format="reference" />
+    <attr name="fullDark" format="reference|color" />
+    <attr name="topDark" format="reference|color" />
+    <attr name="centerDark" format="reference|color" />
+    <attr name="bottomDark" format="reference|color" />
+    <attr name="fullBright" format="reference|color" />
+    <attr name="topBright" format="reference|color" />
+    <attr name="centerBright" format="reference|color" />
+    <attr name="bottomBright" format="reference|color" />
+    <attr name="bottomMedium" format="reference|color" />
+    <attr name="centerMedium" format="reference|color" />
+    <attr name="listLayout" format="reference" />
+    <attr name="multiChoiceItemLayout" format="reference" />
+    <attr name="singleChoiceItemLayout" format="reference" />
+    <attr name="listItemLayout" format="reference" />
+    <attr name="progressLayout" format="reference" />
+    <attr name="horizontalProgressLayout" format="reference" />
+    <attr name="alertDialogStyle" format="reference" />
+    <attr name="alertDialogButtonGroupStyle" format="reference" />
+    <attr name="alertDialogCenterButtons" format="boolean" />
+    <attr name="alertDialogTheme" format="reference" />
+    <attr name="scale" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="defaultTitle" format="string" />
+    <attr name="defaultSubtitle" format="string" />
+    <attr name="connectedTitle" format="string" />
+    <attr name="connectedSubtitle" format="string" />
+    <attr name="show_pictures" format="boolean" />
+    <attr name="extra_fields" format="string" />
+    <attr name="show_title_bar" format="boolean" />
+    <attr name="title_text" format="string" />
+    <attr name="done_button_text" format="string" />
+    <attr name="title_bar_background" format="reference" />
+    <attr name="done_button_background" format="reference" />
+    <attr name="multi_select" format="boolean" />
+    <attr name="radius_in_meters" format="integer" />
+    <attr name="results_limit" format="integer" />
+    <attr name="search_text" format="string" />
+    <attr name="show_search_box" format="boolean" />
+    <attr name="confirm_logout" format="boolean" />
+    <attr name="fetch_user_info" format="boolean" />
+    <attr name="login_text" format="string" />
+    <attr name="logout_text" format="string" />
+    <attr name="preset_size">
+        <enum name="small" value="-2" />
+        <enum name="normal" value="-3" />
+        <enum name="large" value="-4" />
+    </attr>
+    <attr name="is_cropped" format="boolean" />
+</resources>

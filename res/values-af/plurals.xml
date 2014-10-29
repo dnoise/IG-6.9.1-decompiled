@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Jy het %s Facebook-vriende op Instagram.</item>
+        <item quantity="one">Jy het 1 Facebook-vriend op Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s kontakte gevind.</item>
+        <item quantity="one">1 kontak gevind.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">"%d foto's"</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s hangende versoeke</item>
+        <item quantity="one">1 versoek hangend</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">"Hierdie mense wil jou foto's en video's sien. Tik die merker om van nou af aan jou te stuur."</item>
+        <item quantity="one">"Hierdie persoon wil foto's en video's aan jou stuur. Tik die merker om van nou af aan jou te stuur."</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s Facebook-vriende</item>
+        <item quantity="one">1 Facebook-vriend</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s kontakte</item>
+        <item quantity="one">1 kontak</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minute gelede</item>
+        <item quantity="one">%s minuut gelede</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s ure gelede</item>
+        <item quantity="one">%s uur gelede</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s dae gelede</item>
+        <item quantity="one">%s dag gelede</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s weke gelede</item>
+        <item quantity="one">%s week gelede</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s sekondes gelede</item>
+        <item quantity="one">%s sekonde gelede</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d mense het geantwoord.</item>
+        <item quantity="one">1 persoon het geantwoord.</item>
+    </plurals>
+</resources>

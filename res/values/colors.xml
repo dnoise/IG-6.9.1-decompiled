@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_9">#ff070809</color>
+    <color name="grey_8">#ff16181a</color>
+    <color name="grey_7">#ff25292c</color>
+    <color name="grey_6">#ff34393d</color>
+    <color name="grey_5">#ff4a5158</color>
+    <color name="grey_4">#ff81868a</color>
+    <color name="grey_3">#ffa5a9ac</color>
+    <color name="grey_2">#ffc9cbcd</color>
+    <color name="grey_1">#ffedeeef</color>
+    <color name="blue_9">#ff04090d</color>
+    <color name="blue_8">#ff0e1b27</color>
+    <color name="blue_7">#ff162d40</color>
+    <color name="blue_6">#ff20405a</color>
+    <color name="blue_5">#ff2d5b81</color>
+    <color name="blue_4">#ff6c8ca7</color>
+    <color name="blue_3">#ff96adc0</color>
+    <color name="blue_2">#ffc0ced9</color>
+    <color name="blue_1">#ffeaeff3</color>
+    <color name="accent_blue_9">#ff070f15</color>
+    <color name="accent_blue_8">#ff172e40</color>
+    <color name="accent_blue_7">#ff264d6c</color>
+    <color name="accent_blue_6">#ff366c96</color>
+    <color name="accent_blue_5">#ff4d9ad8</color>
+    <color name="accent_blue_4">#ff82b9e3</color>
+    <color name="accent_blue_3">#ffa5ccec</color>
+    <color name="accent_blue_2">#ffcae1f3</color>
+    <color name="accent_blue_1">#ffedf5fb</color>
+    <color name="red_9">#ff190507</color>
+    <color name="red_8">#ff4a1117</color>
+    <color name="red_7">#ff7c1c27</color>
+    <color name="red_6">#ffad2837</color>
+    <color name="red_5">#fff7394f</color>
+    <color name="red_4">#fffa7483</color>
+    <color name="red_3">#fffb9ca6</color>
+    <color name="red_2">#fffdc3ca</color>
+    <color name="red_1">#ffffebed</color>
+    <color name="orange_9">#ff190c06</color>
+    <color name="orange_8">#ff4b2312</color>
+    <color name="orange_7">#ff7e3b1e</color>
+    <color name="orange_6">#ffb0522a</color>
+    <color name="orange_5">#fffd763d</color>
+    <color name="orange_4">#fffd9f75</color>
+    <color name="orange_3">#fffdbb9c</color>
+    <color name="orange_2">#fffed6c3</color>
+    <color name="orange_1">#fffff2eb</color>
+    <color name="green_9">#ff0a1307</color>
+    <color name="green_8">#ff213918</color>
+    <color name="green_7">#ff365e28</color>
+    <color name="green_6">#ff4d8439</color>
+    <color name="green_5">#ff6ebd52</color>
+    <color name="green_4">#ff9ad184</color>
+    <color name="green_3">#ffb6dea7</color>
+    <color name="green_2">#ffd4ebca</color>
+    <color name="green_1">#fff0f9ed</color>
+    <item type="color" name="grey_dark">@color/grey_7</item>
+    <item type="color" name="grey_medium">@color/grey_5</item>
+    <item type="color" name="grey_light">@color/grey_3</item>
+    <item type="color" name="blue_dark">@color/blue_7</item>
+    <item type="color" name="blue_medium">@color/blue_5</item>
+    <item type="color" name="blue_light">@color/blue_3</item>
+    <item type="color" name="accent_blue_dark">@color/accent_blue_7</item>
+    <item type="color" name="accent_blue_medium">@color/accent_blue_5</item>
+    <item type="color" name="accent_blue_light">@color/accent_blue_3</item>
+    <item type="color" name="red_dark">@color/red_7</item>
+    <item type="color" name="red_medium">@color/red_5</item>
+    <item type="color" name="red_light">@color/red_3</item>
+    <item type="color" name="orange_dark">@color/orange_7</item>
+    <item type="color" name="orange_medium">@color/orange_5</item>
+    <item type="color" name="orange_light">@color/orange_3</item>
+    <item type="color" name="green_dark">@color/green_7</item>
+    <item type="color" name="green_medium">@color/green_5</item>
+    <item type="color" name="green_light">@color/green_3</item>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <item type="color" name="image_placeholder">@color/blue_1</item>
+    <color name="action_bar_top_highlight">#ff366289</color>
+    <color name="dark_action_bar_top_highlight">#ff292d30</color>
+    <color name="action_bar_semi_transparent_white">#bfffffff</color>
+    <color name="light_gray">#ffaaaaaa</color>
+    <color name="gray">#ffeeeeee</color>
+    <color name="iosblue">#ff0044e2</color>
+    <color name="dialog_background">#55000000</color>
+    <color name="alt_list_bg_color">#ffcecece</color>
+    <color name="people_tagging_search_background_default">#e616181a</color>
+    <color name="people_tagging_dialog_background">#ffdbdcdd</color>
+    <color name="people_tagging_dialog_text_color">#ff2d3237</color>
+    <color name="people_tagging_dialog_link_color">#ff0e5ca0</color>
+    <color name="people_tagging_dialog_title">#ff4d5359</color>
+    <item type="color" name="people_tagging_dialog_title_shadow">@color/white</item>
+    <color name="people_tagging_cell_background_default">#ffededee</color>
+    <color name="people_tagging_cell_divider">#ffc9cbcd</color>
+    <color name="starred_hide_shoutout_color">#f2999999</color>
+    <color name="photo_map_disabled_text">#ff98d281</color>
+    <item type="color" name="results_text_color">@color/grey_5</item>
+    <color name="result_bar_active_color">#ff4999da</color>
+    <color name="disabled_text_off_white">#50ffffff</color>
+    <color name="nux_dayone_facebook_enabled">#803b5998</color>
+    <color name="nux_dayone_facebook_pressed">#b03b5998</color>
+    <color name="nux_dayone_email_enabled">#20ffffff</color>
+    <color name="nux_dayone_email_pressed">#30ffffff</color>
+    <color name="nux_dayone_log_in_enabled">#10ffffff</color>
+    <color name="nux_dayone_log_in_pressed">#18ffffff</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#ffffffff</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="com_facebook_loginview_text_color">#ffffffff</color>
+    <color name="seek_bar_inactive_color">#ff464749</color>
+    <color name="seek_bar_active_color">#ff139dea</color>
+    <color name="camcorder_shutter_outer_ring">#ffe5283e</color>
+    <color name="camcorder_shutter_outer_ring_pressed">#ff93101f</color>
+    <color name="camcorder_shutter_outer_ring_disabled">#ff6e0d18</color>
+    <color name="camcorder_shutter_inner_ring_disabled">#ff882732</color>
+    <color name="video_camcorder_dialog_text_color">#ff2d3237</color>
+    <color name="camera_shutter_outer_ring">#ff408dcb</color>
+    <color name="camera_shutter_outer_ring_pressed">#ff295f89</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_recommended_user_row" android:paddingTop="@dimen/row_text_padding" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/PaddedRow">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_recommended_user_imageview" android:layout_width="@dimen/avatar_user_row_small" android:layout_height="@dimen/avatar_user_row_small" style="@style/Avatar" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="left|center" android:id="@id/row_recommended_user_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_recommended_user_fullname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/row_recommended_social_context" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" />
+        </LinearLayout>
+        <include android:layout_gravity="right|center" android:id="@id/row_recommended_user_follow_button_medium" android:layout_width="@dimen/follow_button_medium_width" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_medium" />
+        <include android:layout_gravity="right|center" android:id="@id/row_recommended_user_follow_button_large" android:layout_width="@dimen/follow_button_large_width" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_large" />
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:id="@id/row_recommended_user_description" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/row_recommended_user_thumbnail_container" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/row_recommended_user_imagebutton_1" layout="@layout/layout_recommended_user_thumbnail" />
+        <include android:id="@id/row_recommended_user_imagebutton_2" layout="@layout/layout_recommended_user_thumbnail" />
+        <include android:id="@id/row_recommended_user_imagebutton_3" layout="@layout/layout_recommended_user_thumbnail" />
+        <include android:id="@id/row_recommended_user_imagebutton_4" layout="@layout/layout_recommended_user_thumbnail" />
+    </LinearLayout>
+    <View android:id="@id/row_recommended_user_divider" android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginTop="@dimen/row_text_padding" android:layout_marginRight="@dimen/row_padding" />
+</LinearLayout>

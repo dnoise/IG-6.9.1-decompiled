@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/inbox_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@color/grey_dark" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/directshare_inbox_empty_call_to_action" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/icon_direct_big" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/directshare_title" style="@style/EmptyViewTitle" />
+        <TextView android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/directshare_inbox_empty" style="@style/EmptyViewSubtitle" />
+    </LinearLayout>
+</FrameLayout>

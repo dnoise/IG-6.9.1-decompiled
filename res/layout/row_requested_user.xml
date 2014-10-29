@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="top|left|center" android:id="@id/row_user_imageview" android:layout_width="@dimen/avatar_user_row_large" android:layout_height="@dimen/avatar_user_row_large" style="@style/Avatar" />
+        <RelativeLayout android:layout_gravity="center" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_below="@id/row_user_username" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|center" android:id="@id/row_requested_user_approval_actions" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:id="@id/row_requested_user_ignore" android:layout_width="@dimen/row_height" android:layout_height="fill_parent">
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_cancel" app:normal="@color/grey_medium" app:active_alpha="0x80" />
+        </RelativeLayout>
+        <include layout="@layout/vertical_divider" />
+        <RelativeLayout android:gravity="center" android:id="@id/row_requested_user_accept" android:layout_width="@dimen/row_height" android:layout_height="fill_parent">
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/check" app:normal="@color/grey_medium" app:active_alpha="0x80" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include android:layout_gravity="right|center" android:id="@id/row_requested_user_follow_button_medium" android:layout_width="@dimen/follow_button_medium_width" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_medium" />
+    <include android:layout_gravity="right|center" android:id="@id/row_requested_user_follow_button_large" android:layout_width="@dimen/follow_button_large_width" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_large" />
+    <include layout="@layout/row_divider" />
+</FrameLayout>

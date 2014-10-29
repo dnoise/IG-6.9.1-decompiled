@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/newsfeed_failed_icon" />
+        <TextView android:id="@id/newsfeed_empty_view_title" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/newsfeed_failed_title" style="@style/EmptyViewTitle" />
+        <TextView android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/newsfeed_failed_subtitle" style="@style/EmptyViewSubtitle" />
+    </LinearLayout>
+</ScrollView>

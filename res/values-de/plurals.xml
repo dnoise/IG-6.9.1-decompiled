@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Du hast %s Facebook-Freunde auf Instagram.</item>
+        <item quantity="one">Du hast 1 Facebook-FreundIn auf Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s Kontakte gefunden.</item>
+        <item quantity="one">1 Kontakt gefunden.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d Fotos</item>
+        <item quantity="one">1 Foto</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s ausstehende Anfragen</item>
+        <item quantity="one">1 ausstehende Anfrage</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Diese Nutzer möchten dir Fotos und Videos senden. Tippe auf das Häkchen, um ihnen zu erlauben, diese ab jetzt an dich zu senden.</item>
+        <item quantity="one">Dieser Nutzer möchte dir Fotos und Videos senden. Tippe auf das Häkchen, um ihnen zu erlauben, diese ab jetzt an dich zu senden.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s Facebook-Freunde</item>
+        <item quantity="one">1 Facebook-FreundIn</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s Kontakte</item>
+        <item quantity="one">1 Kontakt</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">vor %s Minuten</item>
+        <item quantity="one">vor %s Minute</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">vor %s Stunden</item>
+        <item quantity="one">vor %s Stunde</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">vor %s Tagen</item>
+        <item quantity="one">vor %s Tag</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">vor %s Wochen</item>
+        <item quantity="one">vor %s Woche</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">vor %s Sekunden</item>
+        <item quantity="one">vor %s Sekunde</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d Personen haben geantwortet.</item>
+        <item quantity="one">1 Person hat geantwortet.</item>
+    </plurals>
+</resources>

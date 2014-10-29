@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">คุณมีเพื่อนใน Facebook %s คนบน Instagram</item>
+        <item quantity="one">คุณมีเพื่อนใน Facebook 1 คนบน Instagram</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">พบผู้ติดต่อ %s คน</item>
+        <item quantity="one">พบผู้ติดต่อ 1 คน</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d ภาพ</item>
+        <item quantity="one">1 ภาพ</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s คำร้องขอที่รอการตอบรับ</item>
+        <item quantity="one">1 คำร้องขอที่รอการตอบรับ</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">บุคคลเหล่านี้ต้องการส่งรูปภาพและวิดีโอให้คุณ แตะเครื่องหมายถูกเพื่อให้บุคคลดังกล่าวส่งเนื้อหาถึงคุณได้ตั้งแต่นี้เป็นต้นไป</item>
+        <item quantity="one">บุคคลนี้ต้องการส่งรูปภาพและวิดีโอให้คุณ แตะเครื่องหมายถูกเพื่อให้บุคคลดังกล่าวส่งเนื้อหาถึงคุณได้ตั้งแต่นี้เป็นต้นไป</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">เพื่อน Facebook %s คน</item>
+        <item quantity="one">เพื่อนใน Facebook 1 คน</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s รายชื่อติดต่อ</item>
+        <item quantity="one">1 รายชื่อติดต่อ</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s นาทีที่แล้ว</item>
+        <item quantity="one">%s นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s ชั่วโมงที่แล้ว</item>
+        <item quantity="one">%s ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s วันที่แล้ว</item>
+        <item quantity="one">%s วันที่แล้ว</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s สัปดาห์ที่แล้ว</item>
+        <item quantity="one">%s สัปดาห์ที่แล้ว</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s วินาทีที่แล้ว</item>
+        <item quantity="one">%s วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d คนตอบแล้ว</item>
+        <item quantity="one">1 คนตอบแล้ว</item>
+    </plurals>
+</resources>

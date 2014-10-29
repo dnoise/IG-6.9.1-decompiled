@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/row_height" android:layout_height="@dimen/row_height" android:src="@drawable/newsfeed_empty_view_icon" app:normal="@color/blue_3" />
+        <TextView android:id="@id/newsfeed_empty_view_title" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmptyViewTitle" />
+        <TextView android:id="@id/newsfeed_empty_view_subtitle" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmptyViewSubtitle" />
+        <Button android:id="@id/button_find_friends" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/row_padding" style="@style/LargeBlueButton" />
+    </LinearLayout>
+</ScrollView>

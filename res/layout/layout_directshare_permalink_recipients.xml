@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/recipients_container" android:padding="@dimen/row_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.instagram.android.directshare.widget.RecipientView android:id="@id/sender_image" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/grey_light" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/directshare_to" android:textAllCaps="true" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <include layout="@layout/row_divider" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">%s dei tuoi amici di Facebook sono su Instagram.</item>
+        <item quantity="one">1 tuo amico di Facebook è su Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s contatti trovati.</item>
+        <item quantity="one">1 contatto trovato.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d foto</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s richieste in sospeso</item>
+        <item quantity="one">1 richiesta in sospeso</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Queste persone desiderano inviarti foto e video. Tocca il segno di spunta per consentire loro di farlo da ora in poi.</item>
+        <item quantity="one">Questa persona desidera inviarti foto e video. Tocca il segno di spunta per consentirle di farlo da ora in poi.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s amici di Facebook</item>
+        <item quantity="one">1 amico di Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s contatti</item>
+        <item quantity="one">1 contatto</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minuti fa</item>
+        <item quantity="one">%s minuto fa</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s ore fa</item>
+        <item quantity="one">%s ora fa</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s giorni fa</item>
+        <item quantity="one">%s giorno fa</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s settimane fa</item>
+        <item quantity="one">%s settimana fa</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s secondi fa</item>
+        <item quantity="one">%s secondo fa</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d persone hanno risposto.</item>
+        <item quantity="one">1 persona ha risposto.</item>
+    </plurals>
+</resources>

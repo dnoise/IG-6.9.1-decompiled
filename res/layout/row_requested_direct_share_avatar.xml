@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.imageview.CircularImageView android:layout_width="@dimen/avatar_user_row_small" android:layout_height="@dimen/avatar_user_row_small" android:layout_marginLeft="@dimen/directshare_requested_direct_shares_spacing" style="@style/Avatar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

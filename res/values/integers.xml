@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_activityShortDur">150</integer>
+    <integer name="config_activityDefaultDur">220</integer>
+    <integer name="config_tags_animationDur">250</integer>
+    <integer name="scissors_first_frame_duration">100</integer>
+    <integer name="scissors_frame_duration">17</integer>
+</resources>

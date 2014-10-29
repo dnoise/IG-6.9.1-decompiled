@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/view_switcher_buttons" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/view_switcher_text" android:gravity="center" android:id="@id/view_switcher_button_first" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include layout="@layout/vertical_divider" />
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/view_switcher_text" android:gravity="center" android:id="@id/view_switcher_button_second" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/tab_shadow" android:background="@drawable/tab_control_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_marginBottom="-7.0dip" />
+</FrameLayout>

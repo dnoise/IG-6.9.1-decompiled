@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/directshare_inbox_row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_pending_media_user_profile" android:layout_width="@dimen/avatar_user_row_large" android:layout_height="@dimen/avatar_user_row_large" android:layout_marginRight="@dimen/row_text_padding" style="@style/Avatar" />
+        <TextView android:textStyle="bold" android:id="@id/row_pending_media_text_view_status" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ProgressBar android:id="@id/row_pending_media_progress_bar" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_text_padding" android:max="100" android:indeterminate="false" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/progress_horizontal_upload" android:layout_weight="1.0" style="@style/IgUploadProgressBar" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_pending_media_retry_button" android:layout_width="@dimen/button_width" android:layout_height="wrap_content" android:src="@drawable/nav_refresh" app:normal="@color/grey_medium" app:active="@color/grey_dark" />
+        <include layout="@layout/vertical_divider" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_pending_media_cancel_button" android:layout_width="@dimen/button_width" android:layout_height="wrap_content" android:src="@drawable/nav_cancel" app:normal="@color/grey_medium" app:active="@color/grey_dark" />
+        <ImageView android:id="@id/row_pending_media_imageview" android:layout_width="@dimen/directshare_inbox_thumbnail_size" android:layout_height="@dimen/directshare_inbox_thumbnail_size" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</LinearLayout>

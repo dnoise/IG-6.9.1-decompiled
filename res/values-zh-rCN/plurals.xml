@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">你有 %s 位 Facebook 好友在使用 Instagram。</item>
+        <item quantity="one">你有 1 位 Facebook 好友在使用 Instagram。</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">找到 %s 位联系人。</item>
+        <item quantity="one">找到 1 个联系人。</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d 张照片</item>
+        <item quantity="one">1 张照片</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s 个待处理请求</item>
+        <item quantity="one">1 个待处理请求</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">这些用户希望给你发送照片和视频。点击钩选，从现在起，他们就可以给你发送了。</item>
+        <item quantity="one">此用户希望给你发送照片和视频。点击钩选，从现在起，该用户就可给你发送了。</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s 位 Facebook 好友</item>
+        <item quantity="one">1 位 Facebook 好友</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s 位联系人</item>
+        <item quantity="one">1 位联系人</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s 分钟前发布</item>
+        <item quantity="one">%s 分钟前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s 小时前</item>
+        <item quantity="one">%s 小时前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s 天前</item>
+        <item quantity="one">%s 天前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s 周前</item>
+        <item quantity="one">%s 周前</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s 秒前</item>
+        <item quantity="one">%s 秒钟前</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d 位用户回应了</item>
+        <item quantity="one">1 位用户回应了</item>
+    </plurals>
+</resources>

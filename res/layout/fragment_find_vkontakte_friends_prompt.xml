@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="top" android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contact" />
+            <TextView android:textSize="@dimen/font_xlarge" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="64.0dip" android:text="@string/instagram_is_more_fun_with_friends" android:lineSpacingExtra="4.0dip" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/button_find_friends" android:background="@drawable/button_blue_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small">
+            <TextView android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/find_friends_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_vkontakte_friends" android:drawableLeft="@drawable/share_vkontakte" style="@style/FieldWithGlyph" />
+        </FrameLayout>
+        <TextView android:textColor="@color/accent_blue_medium" android:gravity="center" android:id="@id/button_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_text_padding" android:minHeight="@dimen/row_height_small" android:text="@string/not_now" />
+    </LinearLayout>
+</ScrollView>

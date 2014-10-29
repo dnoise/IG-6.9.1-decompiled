@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" style="@style/ActionBar.Dark">
+        <ImageView android:id="@id/button_back" android:src="@drawable/nav_arrow_back" style="@style/ActionBarButton.Dark" />
+        <com.instagram.ui.text.FreightSansTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/crop_photo" android:layout_weight="1.0" style="@style/ActionBarTitle" />
+        <ImageView android:id="@id/save" android:src="@drawable/nav_arrow_next_blue" style="@style/ActionBarButton.Dark" />
+    </LinearLayout>
+    <view android:id="@id/image" android:background="#66000000" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.instagram.creation.photo.crop.CropImageView" />
+</LinearLayout>

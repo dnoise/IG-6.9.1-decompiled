@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/directshare_inbox_row_container" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/directshare_inbox_row_content_container" android:layout_width="fill_parent" android:layout_height="@dimen/directshare_inbox_row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_inbox_user_profile" android:layout_width="@dimen/avatar_user_row_large" android:layout_height="@dimen/avatar_user_row_large" android:layout_marginRight="@dimen/row_text_padding" style="@style/Avatar" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_text_padding" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_inbox_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_inbox_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:id="@id/row_inbox_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/directshare_inbox_glyph_padding" />
+        <FrameLayout android:id="@id/row_inbox_thumbnail_container" android:paddingLeft="@dimen/row_text_padding" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/row_inbox_thumbnail" android:layout_width="@dimen/directshare_inbox_thumbnail_size" android:layout_height="@dimen/directshare_inbox_thumbnail_size" app:placeholder="@color/image_placeholder" />
+            <ImageView android:layout_gravity="top|right|center" android:id="@id/row_inbox_video_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/grid_camera_icon_small" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/font_small" android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center" android:id="@id/row_inbox_tap_to_open" android:background="@drawable/bg_row_pending_direct_share_thumbnail" android:visibility="gone" android:layout_width="@dimen/directshare_inbox_thumbnail_size" android:layout_height="@dimen/directshare_inbox_thumbnail_size" android:textAllCaps="true" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</LinearLayout>

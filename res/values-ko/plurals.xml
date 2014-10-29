@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Instagram에 Facebook 친구가 %s명 있습니다.</item>
+        <item quantity="one">Instagram에 Facebook 친구가 1명 있습니다.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">연락처 %s개를 찾았습니다.</item>
+        <item quantity="one">연락처 1개를 찾았습니다.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">사진 %d장</item>
+        <item quantity="one">사진 1장</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">대기 중인 요청 %s건</item>
+        <item quantity="one">대기 중인 요청 1건</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">회원님에게 사진과 동영상을 보내고 싶어하는 사람들입니다. 보내기를 허용하려면 확인란을 누르세요.</item>
+        <item quantity="one">회원님에게 사진과 동영상을 보내고 싶어하는 사람입니다. 보내기를 허용하려면 확인란을 누르세요.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">Facebook 친구 %s명</item>
+        <item quantity="one">Facebook 친구 1명</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">연락처 %s개</item>
+        <item quantity="one">연락처 1개</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s분 전</item>
+        <item quantity="one">%s분 전</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s시간 전</item>
+        <item quantity="one">%s시간 전</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s일 전</item>
+        <item quantity="one">%s일 전</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s주 전</item>
+        <item quantity="one">%s주 전</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s초 전</item>
+        <item quantity="one">%s초 전</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d명이 응답했습니다.</item>
+        <item quantity="one">1명이 응답했습니다.</item>
+    </plurals>
+</resources>

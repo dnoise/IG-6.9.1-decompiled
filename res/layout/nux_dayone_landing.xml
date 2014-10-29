@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.LandingBackgroundView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nux_dayone_landing_margin" android:layout_marginRight="@dimen/nux_dayone_landing_margin">
+        <FrameLayout android:id="@id/nux_dayone_register_facebook" android:background="@drawable/nux_dayone_button_facebook" style="@style/NuxLandingButton">
+            <TextView android:textStyle="bold" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:text="@string/nux_dayone_register_facebook" android:drawableLeft="@drawable/nux_dayone_icon_facebook" android:drawablePadding="8.0dip" style="@style/NuxLandingTextButton" />
+        </FrameLayout>
+        <Button android:textStyle="bold" android:id="@id/nux_dayone_register_email" android:background="@drawable/nux_dayone_button_email" android:text="@string/nux_dayone_register_email" style="@style/NuxLandingTextButton" />
+        <Button android:textStyle="bold" android:id="@id/nux_dayone_log_in" android:background="@drawable/nux_dayone_button_log_in" android:text="@string/nux_dayone_log_in" style="@style/NuxLandingTextButton" />
+    </LinearLayout>
+</FrameLayout>

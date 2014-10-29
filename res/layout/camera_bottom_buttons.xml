@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/creation_main_actions" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.creation.base.ui.StrokedCameraButton android:layout_gravity="center" android:id="@id/fragment_camera_gallery_button" android:layout_width="@dimen/camera_bottom_button_size_large" android:layout_height="@dimen/camera_bottom_button_size_large" android:src="@drawable/camera_glyph_gallery" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.camera.ShutterButton android:layout_gravity="center" android:id="@id/fragment_camera_shutter_button" android:background="@drawable/camera_shutter_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/camera_shutter_button_size_large" android:layout_height="@dimen/camera_shutter_button_size_large" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.creation.base.ui.StrokedCameraButton android:layout_gravity="center" android:id="@id/fragment_camera_video_button" android:layout_width="@dimen/camera_bottom_button_size_large" android:layout_height="@dimen/camera_bottom_button_size_large" android:src="@drawable/camera_glyph_camcorder" />
+    </FrameLayout>
+</LinearLayout>

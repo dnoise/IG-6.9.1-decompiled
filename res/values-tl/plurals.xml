@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Mayroon kang %s (na) kaibigan sa Facebook na nasa Instagram.</item>
+        <item quantity="one">Mayroon kang 1 kaibigan sa Facebook na nasa Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s (na) contact ang nahanap.</item>
+        <item quantity="one">1 contact ang nakita.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d (na) litrato</item>
+        <item quantity="one">1 litrato</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">(%s (na) nakabinbing kahilingan</item>
+        <item quantity="one">1 nakabinbing kahilingan</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Gusto kang padalhan ng mga taong ito ng mga litrato at video. I-tap ang check para payagan silang magpadala sa iyo magmula ngayon.</item>
+        <item quantity="one">Gusto kang padalhan ng taong ito ng mga litrato at video. I-tap ang check para payagan silang magpadala sa iyo magmula ngayon.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s (na) Kaibigan sa Facebook</item>
+        <item quantity="one">1 Kaibigan sa Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s (na) Contact</item>
+        <item quantity="one">1 Contact</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s (na) minuto ang nakalipas</item>
+        <item quantity="one">%s minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s (na) oras ang nakalipas</item>
+        <item quantity="one">%s oras ang nakalipas</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s (na) araw ang nakalipas</item>
+        <item quantity="one">%s araw ang nakalipas</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s (na) linggo ang nakalipas</item>
+        <item quantity="one">%s (na) linggo ang nakalipas</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s (na) segundo ang nakalipas</item>
+        <item quantity="one">%s segundo ang nakalipas</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d (na) tao ang sumagot.</item>
+        <item quantity="one">1 tao ang sumagot.</item>
+    </plurals>
+</resources>

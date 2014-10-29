@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Anda mempunyai %s rakan Facebook di Instagram.</item>
+        <item quantity="one">Anda mempunyai 1 rakan Facebook di Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s kenalan ditemui.</item>
+        <item quantity="one">1 kenalan ditemui.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d foto</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s permintaan yang belum selesai</item>
+        <item quantity="one">1 permintaan belum selesai</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Orang ini ingin menghantar foto dan video kepada anda. Ketik tanda semak untuk membolehkan mereka menghantarnya kepada anda bermula dari sekarang.</item>
+        <item quantity="one">Orang ini ingin menghantar foto dan video kepada anda. Ketik tanda semak untuk membolehkan mereka menghantarnya kepada anda bermula dari sekarang.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s Rakan Facebook</item>
+        <item quantity="one">1 Rakan Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s Kenalan</item>
+        <item quantity="one">1 Kenalan</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minit yang lalu</item>
+        <item quantity="one">%s minit yang lalu</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s jam yang lalu</item>
+        <item quantity="one">%s jam lalu</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s hari lalu</item>
+        <item quantity="one">%s hari lalu</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s minggu yang lalu</item>
+        <item quantity="one">%s minggu yang lalu</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s saat yang lalu</item>
+        <item quantity="one">%s saat yang lalu</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d orang bertindak balas.</item>
+        <item quantity="one">1 orang bertindak balas.</item>
+    </plurals>
+</resources>

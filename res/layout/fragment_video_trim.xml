@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/trim_root" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fragment_video_trim_preview" />
+    <include layout="@layout/fragment_video_edit_tab" />
+    <RelativeLayout android:id="@id/creation_main_actions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/fragment_video_trim_filmstrip" />
+        <TextView android:textColor="@color/grey_4" android:id="@id/scrollable_nux" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/video_import_scrollable_nux" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

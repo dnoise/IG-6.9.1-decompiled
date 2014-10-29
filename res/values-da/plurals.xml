@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Du har %s Facebook-venner på Instagram</item>
+        <item quantity="one">Du har 1 Facebook-ven på Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Der blev fundet %s kontakter.</item>
+        <item quantity="one">Der blev fundet 1 kontakt.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d billeder</item>
+        <item quantity="one">1 billede</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s ventende anmodninger</item>
+        <item quantity="one">1 ventende anmodning</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Disse personer vil gerne sende dig billeder og videoer. Tryk på afkrydsningsfeltet for at lade dem sende til dig fremover.</item>
+        <item quantity="one">Denne person vil gerne sende dig billeder og videoer. Tryk på afkrydsningsfeltet for at lade ham eller hende sende til dig fremover.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s Facebook-venner</item>
+        <item quantity="one">1 Facebook-ven</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s kontaktpersoner</item>
+        <item quantity="one">1 kontaktperson</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">for %s minutter siden</item>
+        <item quantity="one">for %s minut siden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">for %s timer siden</item>
+        <item quantity="one">for %s time siden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">for %s dage siden</item>
+        <item quantity="one">for %s dag siden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">for %s uger siden</item>
+        <item quantity="one">for %s uge siden</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">for %s sekunder siden</item>
+        <item quantity="one">for %s sekund siden</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d personer har svaret.</item>
+        <item quantity="one">1 person har svaret.</item>
+    </plurals>
+</resources>

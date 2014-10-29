@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.squareframelayout.SquareFrameLayout android:layout_gravity="center" android:id="@id/creation_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.creation.base.ui.GridLinesView android:id="@id/straighten_grid_overlay_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lines="3" />
+    <com.instagram.creation.base.ui.GridLinesView android:id="@id/straighten_grid_overlay_6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lines="6" />
+    <View android:layout_gravity="center" android:id="@id/loading_cover_for_surface_view" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/photo_edit_rotate_button" android:background="@drawable/straighten_rotate_background" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/straighten_glyph_rotate" android:scaleType="centerInside" />
+</com.instagram.common.ui.widget.squareframelayout.SquareFrameLayout>

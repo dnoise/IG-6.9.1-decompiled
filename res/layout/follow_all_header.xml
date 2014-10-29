@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingTop="@dimen/row_padding" style="@style/PaddedRow">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/avatar" android:layout_width="@dimen/avatar_large" android:layout_height="@dimen/avatar_large" android:layout_marginTop="4.0dip" android:src="@drawable/profile_anonymous_user" style="@style/Avatar" />
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:gravity="center_horizontal" android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <TextView android:gravity="center_horizontal" android:id="@id/message" android:paddingBottom="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Profile" />
+        <com.instagram.ui.text.FreightSansTextView android:id="@id/follow_all" android:background="@drawable/button_grey_background" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:text="@string/follow_all" style="@style/IgFollowButtonStyle" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_padding">
+            <include layout="@layout/row_header_divider" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

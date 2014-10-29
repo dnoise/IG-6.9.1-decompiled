@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/ActionBar.Dark">
+        <ImageView android:id="@id/action_bar_cancel" android:src="@drawable/nav_cancel" style="@style/ActionBarButton.Dark" />
+    </FrameLayout>
+    <include layout="@layout/camera_preview_frame" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_secondary_actions" android:background="@color/grey_7" android:layout_width="fill_parent" android:layout_height="@dimen/creation_secondary_actions_large" android:baselineAligned="false">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/grid_lines_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_gridtoggle" android:scaleType="center" />
+        </FrameLayout>
+        <View android:background="@color/grey_medium" android:layout_width="1.0px" android:layout_height="28.0dip" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/switch_camera_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_cameratoggle" android:scaleType="center" />
+        </FrameLayout>
+        <View android:background="@color/grey_medium" android:layout_width="1.0px" android:layout_height="28.0dip" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.instagram.creation.photo.camera.CameraFlashButton android:id="@id/flash_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_flash_off" android:scaleType="center" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/camera_bottom_buttons" />
+</LinearLayout>

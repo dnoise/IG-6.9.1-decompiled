@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/people_tagging_search_background" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/directshare_inbox_row_content_container" android:layout_width="fill_parent" android:layout_height="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_user_imageview" android:layout_width="@dimen/avatar_user_row_large" android:layout_height="@dimen/avatar_user_row_large" style="@style/Avatar" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/grey_light" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_row_divider" android:background="@color/grey_medium" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

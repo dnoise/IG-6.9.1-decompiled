@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ruler_layout" android:background="@color/grey_8" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.cliffjumper.edit.common.ui.sliderview.SliderView android:layout_gravity="center" android:id="@id/photo_straighten_slider" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.instagram.cliffjumper.edit.common.ui.sliderview.AngleRulerView android:id="@id/angle_ruler_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.instagram.cliffjumper.edit.common.ui.sliderview.SliderView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sliderview_wheel_shadow" />
+    <View android:layout_gravity="bottom|center" android:background="@drawable/sliderview_pointer" android:layout_width="@dimen/sliderview_pointer_width" android:layout_height="56.0dip" />
+</FrameLayout>

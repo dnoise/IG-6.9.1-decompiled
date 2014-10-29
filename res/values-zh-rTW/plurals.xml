@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">你有 %s 位 Facebook 朋友正在使用 Instagram。</item>
+        <item quantity="one">你有 1 位 Facebook 朋友正在使用 Instagram。</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">找到 %s 個聯絡人。</item>
+        <item quantity="one">找到 1 位聯絡人。</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%d 張相片</item>
+        <item quantity="one">1 張相片</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s 則待確認要求</item>
+        <item quantity="one">1 則待確認要求</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">這些人想傳送相片和影片給你。點按勾選記號，讓他們從現在開始傳送。</item>
+        <item quantity="one">這個人想傳送相片和影片給你。點按勾選記號，讓他從現在開始傳送。</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s 個 Facebook 朋友</item>
+        <item quantity="one">1 個 Facebook 朋友</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s 個聯絡人</item>
+        <item quantity="one">1 個聯絡人</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s 分鐘前</item>
+        <item quantity="one">%s 分鐘前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s 小時前</item>
+        <item quantity="one">%s 小時前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s 天前</item>
+        <item quantity="one">%s 天前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s 週前</item>
+        <item quantity="one">%s 週前</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s 秒前</item>
+        <item quantity="one">%s 秒鐘前</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d 人回答。</item>
+        <item quantity="one">1 人回答。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,17 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: braces fieldsfirst space lnc 
+
+package com.instagram.creation.video.gl;
+
+
+// Referenced classes of package com.instagram.creation.video.gl:
+//            j
+
+public interface y
+{
+
+    public abstract void X();
+
+    public abstract void a(j j);
+}

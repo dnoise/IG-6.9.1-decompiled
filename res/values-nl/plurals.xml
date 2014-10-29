@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Je hebt %s Facebook-vrienden op Instagram.</item>
+        <item quantity="one">Je hebt 1 Facebook-vriend op Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%s contactpersonen gevonden.</item>
+        <item quantity="one">1 contact gevonden.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">"%d foto's"</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s openstaande verzoeken</item>
+        <item quantity="one">1 openstaand verzoek</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">"Deze personen willen je foto's en video's sturen. Tik op het selectievakje om ze hier vanaf nu toestemming voor te geven."</item>
+        <item quantity="one">"Deze persoon wil je foto's en video's sturen. Tik op het selectievakje om hem/haar hier vanaf nu toestemming voor te geven."</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%s Facebook-vrienden</item>
+        <item quantity="one">1 Facebook-vriend</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%s contactpersonen</item>
+        <item quantity="one">1 contactpersoon</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s minuten geleden</item>
+        <item quantity="one">%s minuut geleden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s uur geleden</item>
+        <item quantity="one">%s uur geleden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s dagen geleden</item>
+        <item quantity="one">%s dag geleden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s weken geleden</item>
+        <item quantity="one">%s week geleden</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s seconden geleden</item>
+        <item quantity="one">%s seconde geleden</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d personen hebben gereageerd.</item>
+        <item quantity="one">1 persoon heeft gereageerd.</item>
+    </plurals>
+</resources>

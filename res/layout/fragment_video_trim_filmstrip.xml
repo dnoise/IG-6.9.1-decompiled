@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.creation.video.ui.FilmstripScrollView android:id="@id/filmstrip_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_centerInParent="true" android:overScrollMode="never">
+        <FrameLayout android:id="@id/filmstrip_scrollview_container" android:layout_width="wrap_content" android:layout_height="88.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/filmstrip_keyframes_holder" android:background="@drawable/cover_track" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:id="@id/filmstrip_play_indicator" android:background="@drawable/trim_play_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="-8.0dip" android:layout_marginBottom="-8.0dip" />
+        </FrameLayout>
+    </com.instagram.creation.video.ui.FilmstripScrollView>
+    <View android:id="@id/filmstrip_dimmer" android:background="@drawable/trim_pattern_tile" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ProgressBar android:id="@id/trim_length_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/video_import_track" android:layout_alignParentTop="true" />
+    <com.instagram.creation.video.widget.TrimHandle android:layout_gravity="top|left|center" android:id="@id/trim_handle" android:background="@drawable/trim_nub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</merge>

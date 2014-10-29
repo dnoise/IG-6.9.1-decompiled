@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_x_friends">
+        <item quantity="other">Facebookの友達%s人がInstagramを利用しています。</item>
+        <item quantity="one">Facebookの友達1人がInstagramを利用しています。</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">連絡先が%s件見つかりました。</item>
+        <item quantity="one">連絡先が1人見つかりました。</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">写真%d枚</item>
+        <item quantity="one">写真1枚</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">承認待ちリクエスト%s件</item>
+        <item quantity="one">承認待ちリクエスト1件</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">次のユーザーは写真や動画の送信を希望しています。チェックマークをタップすることにより送信が許可されます。</item>
+        <item quantity="one">次のユーザーは写真や動画の送信を希望しています。チェックマークをタップすることにより送信が許可されます。</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">Facebookの友達%s人</item>
+        <item quantity="one">Facebookの友達1人</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">連絡先%s件</item>
+        <item quantity="one">連絡先1件</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%s分前</item>
+        <item quantity="one">%s分前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%s時間前</item>
+        <item quantity="one">%s時間前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%s日前</item>
+        <item quantity="one">%s日前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%s週間前</item>
+        <item quantity="one">%s週間前</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%s秒前</item>
+        <item quantity="one">%s秒前</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%d人が回答しました。</item>
+        <item quantity="one">1人が回答しました。</item>
+    </plurals>
+</resources>

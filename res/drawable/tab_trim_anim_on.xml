@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/tab_trim_anim_on" android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/scissors_first_frame_duration" android:drawable="@drawable/scissors_sel_0" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_1" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_2" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_3" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_4" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_5" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_6" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_7" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_8" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_9" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_10" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_11" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_10" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_9" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_8" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_7" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_6" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_5" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_4" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_3" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_2" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_1" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_0" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_1" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_2" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_3" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_4" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_5" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_6" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_7" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_8" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_9" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_10" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_11" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_10" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_9" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_8" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_7" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_6" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_5" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_4" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_3" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_2" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_1" />
+    <item android:duration="@integer/scissors_frame_duration" android:drawable="@drawable/scissors_sel_0" />
+</animation-list>

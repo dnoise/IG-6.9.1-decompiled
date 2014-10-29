@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/action_bar_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dev_choose_a_host" style="@style/IgDialogActionBar.Title" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView" android:background="@color/people_tagging_dialog_background" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/row_fullwidth_height" android:text="@string/dev_choose_a_host_subtitle" />
+            <include layout="@layout/people_tagging_cell_divider" />
+            <EditText android:id="@id/dev_server" android:background="@drawable/input_fullwidth" android:layout_width="fill_parent" android:layout_height="@dimen/row_fullwidth_height" android:hint="@string/dev_choose_a_host_hint" android:inputType="textNoSuggestions" />
+            <include layout="@layout/people_tagging_cell_divider" />
+            <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <include layout="@layout/people_tagging_cell_divider" />
+            <TextView android:gravity="center" android:id="@id/done_button" android:background="@drawable/input_fullwidth" android:layout_width="fill_parent" android:layout_height="@dimen/row_fullwidth_height" android:text="@string/done" />
+            <include layout="@layout/people_tagging_cell_divider" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

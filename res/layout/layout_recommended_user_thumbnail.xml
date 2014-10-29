@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.imagebutton.IgImageButton android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/suggested_user_grid_spacing" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

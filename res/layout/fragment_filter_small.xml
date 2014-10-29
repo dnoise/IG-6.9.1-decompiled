@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/filter_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewSwitcher android:id="@id/action_bar_adjust_switcher" style="@style/ActionBar.Dark">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/button_back" android:src="@drawable/nav_arrow_back" style="@style/ActionBarButton.Dark" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_secondary_actions" android:background="@color/grey_dark" android:layout_width="0.0dip" android:layout_height="@dimen/creation_secondary_actions_large" android:baselineAligned="false" android:layout_weight="1.0">
+                    <include layout="@layout/creation_edit_action_bar_divider" />
+                    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.75" />
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_filter" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/tab_filters_off" android:scaleType="centerInside" android:layout_weight="1.0" app:active="@color/accent_blue_medium" />
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_lux" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/lux_off" android:scaleType="centerInside" android:layout_weight="1.0" app:active="@color/accent_blue_medium" />
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_enh" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/lux_off" android:scaleType="centerInside" android:layout_weight="1.0" app:active="@color/accent_blue_medium" />
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_tools" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/tab_tools_off" android:scaleType="centerInside" android:layout_weight="1.0" app:active="@color/accent_blue_medium" />
+                    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.75" />
+                    <include layout="@layout/creation_edit_action_bar_divider" />
+                </LinearLayout>
+                <ImageView android:id="@id/button_next" android:src="@drawable/nav_arrow_next_blue" style="@style/ActionBarButton.Dark" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/button_cancel_adjust" android:src="@drawable/nav_cancel" style="@style/ActionBarButton.Dark" />
+                <include layout="@layout/creation_edit_action_bar_divider" />
+                <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/adjust_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ActionBarTitle" />
+                <include layout="@layout/creation_edit_action_bar_divider" />
+                <ImageView android:id="@id/button_accept_adjust" android:src="@drawable/check" style="@style/ActionBarButton" />
+            </LinearLayout>
+        </ViewSwitcher>
+        <include layout="@layout/fragment_filter_preview" />
+        <ViewSwitcher android:id="@id/creation_main_actions" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ViewSwitcher android:id="@id/filter_tool_switcher" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <com.instagram.cliffjumper.edit.common.ui.EffectPicker android:id="@id/filter_picker" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <com.instagram.cliffjumper.edit.common.ui.EffectPicker android:id="@id/tool_picker" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </ViewSwitcher>
+            </LinearLayout>
+            <FrameLayout android:id="@id/adjust_container" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ViewSwitcher>
+    </LinearLayout>
+</FrameLayout>

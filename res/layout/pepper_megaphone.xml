@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/vertical_separator_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.IgImageView android:layout_gravity="left|center" android:id="@id/icon" android:layout_width="@dimen/avatar_user_row_large" android:layout_height="@dimen/avatar_user_row_large" app:placeholder="@color/image_placeholder" />
+        <TextView android:id="@id/text" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_gravity="right|center" android:id="@id/button" android:background="@drawable/rounded_layout_border_stroke" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_text_padding" style="@style/IgFollowButtonBase.Medium" />
+        <include layout="@layout/vertical_divider" />
+        <LinearLayout android:gravity="center" android:id="@id/dismiss_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/row_text_padding">
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_cancel" app:normal="@color/grey_light" app:active_alpha="0x80" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>
